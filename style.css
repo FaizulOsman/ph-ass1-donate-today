@@ -54,6 +54,11 @@ a {
     margin-bottom: 46px;
 }
 
+.banner-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+
 
 /* =================== Donate Today Section ================== */
 #donate-today-section {
@@ -136,6 +141,12 @@ a {
 
 #donate-today-form .button {
     margin-top: 30px;
+}
+
+.input-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 
