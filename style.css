@@ -11,6 +11,14 @@ body {
 
 
 
+.button {
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 16px 20.5px;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
 
 
 
@@ -50,9 +58,91 @@ body {
 
 .banner-text a {
     font-family: 'Inter', sans-serif;
-    background-color: tomato;
-    border-radius: 5px;
-    padding: 16px 20.5px;
-    color: white;
-    text-decoration: none;
+}
+
+
+
+/* =================== Donate Today Section ================== */
+#donate-today-section {
+    text-align: center;
+}
+
+.donate-today-text {
+    margin-top: 130px;
+}
+
+.donate-today-text h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.donate-today-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 691px;
+    margin: 20px auto 50px auto;
+}
+
+
+#donate-today-amount {
+    display: flex;
+    width: 765px;
+    margin: 0 auto;
+}
+
+#donate-today-amount .card {
+    width: 135px;
+    height: 123px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-1,
+.card-3,
+.card-4,
+.card-5 {
+    background-color: #FAFAFA;
+    color: #707070;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    margin-right: 20px;
+}
+
+.card-2 {
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+
+
+
+
+/* =================== Donate Today Form ================== */
+#donate-today-form {
+    margin-top: 60px;
+}
+
+#donate-today-form .input-field {
+    width: 765px;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#donate-today-form .button {
+    margin-top: 30px;
 }
