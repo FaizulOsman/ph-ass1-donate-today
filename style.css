@@ -1,3 +1,5 @@
+/* ========================== Common CSS ====================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +24,7 @@ h4,
 a {
     font-family: 'Inter', sans-serif;
 }
+
 
 /* =================== Banner Section ================== */
 #banner-section {
@@ -61,6 +64,7 @@ a {
 
 
 /* =================== Donate Today Section ================== */
+
 #donate-today-section {
     text-align: center;
 }
@@ -124,9 +128,8 @@ a {
 }
 
 
-
-
 /* ====== Donate Today Form ====== */
+
 #donate-today-form {
     margin-top: 60px;
 }
@@ -175,7 +178,9 @@ a {
     margin: 20px auto 50px auto;
 }
 
+
 /* ========= Donate Plan Card ======== */
+
 
 #donate-plan-card {
     display: flex;
@@ -221,8 +226,6 @@ a {
     color: #707070;
     margin-top: 16px;
 }
-
-
 
 
 
@@ -310,10 +313,7 @@ a {
 
 
 
-
-
-
-/* ========= Get update Section ======== */
+/* ============== Get update Section ============= */
 
 #get-update-section {
     margin-top: 130px;
@@ -367,10 +367,10 @@ a {
 
 
 
-
-
-
 /* ==================== Footer Area =================== */
+
+
+
 footer {
     background-color: #0B0D17;
     max-width: 1440px;
