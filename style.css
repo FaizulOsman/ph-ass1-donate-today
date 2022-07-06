@@ -3,14 +3,6 @@
     padding: 0;
 }
 
-body {
-    /* font-family: 'Inter', sans-serif; */
-    /* font-family: 'Poppins', sans-serif; */
-}
-
-
-
-
 .button {
     background-color: tomato;
     border-radius: 5px;
@@ -20,7 +12,16 @@ body {
     border: none;
 }
 
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
 
+h1,
+h4,
+a {
+    font-family: 'Inter', sans-serif;
+}
 
 /* =================== Banner Section ================== */
 #banner-section {
@@ -37,7 +38,6 @@ body {
 }
 
 .banner-text h1 {
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 65px;
     line-height: 79px;
@@ -46,8 +46,6 @@ body {
 }
 
 .banner-text p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     width: 691px;
@@ -55,11 +53,6 @@ body {
     margin-top: 20px;
     margin-bottom: 46px;
 }
-
-.banner-text a {
-    font-family: 'Inter', sans-serif;
-}
-
 
 
 /* =================== Donate Today Section ================== */
@@ -72,15 +65,12 @@ body {
 }
 
 .donate-today-text h1 {
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 54px;
 }
 
 .donate-today-text p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     width: 691px;
@@ -150,6 +140,9 @@ body {
 
 
 /* =================== Donate Plan Section ================== */
+
+/* ========= Donate Plan Text ======== */
+
 #donate-plan-section {
     margin-top: 130px;
 }
@@ -159,21 +152,19 @@ body {
 }
 
 #donate-plan-text h1 {
-    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 54px;
 }
 
 #donate-plan-text p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     width: 691px;
     margin: 20px auto 50px auto;
 }
 
+/* ========= Donate Plan Card ======== */
 
 #donate-plan-card {
     display: flex;
@@ -207,7 +198,6 @@ body {
 }
 
 .plan-card h4 {
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
@@ -215,8 +205,6 @@ body {
 }
 
 .plan-card p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #707070;
