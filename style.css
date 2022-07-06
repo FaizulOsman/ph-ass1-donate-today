@@ -87,6 +87,7 @@ body {
     margin: 20px auto 50px auto;
 }
 
+/* ====== Donate Today Ampunt ====== */
 
 #donate-today-amount {
     display: flex;
@@ -130,7 +131,7 @@ body {
 
 
 
-/* =================== Donate Today Form ================== */
+/* ====== Donate Today Form ====== */
 #donate-today-form {
     margin-top: 60px;
 }
@@ -145,4 +146,79 @@ body {
 
 #donate-today-form .button {
     margin-top: 30px;
+}
+
+
+/* =================== Donate Plan Section ================== */
+#donate-plan-section {
+    margin-top: 130px;
+}
+
+#donate-plan-text {
+    text-align: center;
+}
+
+#donate-plan-text h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+#donate-plan-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 691px;
+    margin: 20px auto 50px auto;
+}
+
+
+#donate-plan-card {
+    display: flex;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.plan-card {
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+    padding: 23px;
+}
+
+.plan-card-1 {
+    background-color: #4F9DA61A;
+    margin-right: 24px;
+}
+
+.plan-card-2 {
+    background-color: #FF59591A;
+    margin-right: 24px;
+}
+
+.plan-card-3 {
+    background-color: #e2e46038;
+}
+
+.plan-card img {
+    padding-top: 63.5px;
+}
+
+.plan-card h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 31px;
+}
+
+.plan-card p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    margin-top: 16px;
 }
