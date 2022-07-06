@@ -60,88 +60,6 @@ a {
 }
 
 
-/* =================== Food Relief Section ================== */
-
-
-#food-relief-area {
-    max-width: 1440px;
-    width: 100%;
-    margin-top: 70px;
-}
-
-.food-relief-top-section {
-    text-align: center;
-}
-
-.food-relief-top-section h1 {
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 54px;
-}
-
-.food-relief-top-section p {
-    font-size: 18px;
-    line-height: 28px;
-    width: 1091px;
-    margin: 20px auto 50px auto;
-}
-
-
-#food-relief-main {
-    display: flex;
-    max-width: 90%;
-    margin: 0 auto;
-    margin-top: 70px;
-}
-
-.food-relief-contact {
-    width: 40%;
-    padding-right: 50px;
-}
-
-.food-relief-contact p {
-    font-size: 18px;
-    line-height: 28px;
-}
-
-.food-relief-contact .contact .phone {
-    display: flex;
-    margin: 30px 0;
-}
-
-.food-relief-contact .contact .phone span {
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    padding-left: 20px;
-    color: #707070;
-}
-
-.food-relief-contact .contact .email {
-    display: flex;
-}
-
-.food-relief-contact .contact .email span {
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    padding-left: 20px;
-    color: #707070;
-}
-
-.food-relief-contact .contact img {
-    width: 24px;
-}
-
-.food-relief-image {
-    width: 60%;
-    padding-left: 50px;
-}
-
-.food-relief-image img {
-    width: 100%;
-}
-
 /* =================== Donate Today Section ================== */
 #donate-today-section {
     text-align: center;
@@ -308,12 +226,94 @@ a {
 
 
 
+/* =================== Food Relief Section ================== */
+
+
+#food-relief-area {
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.food-relief-top-section {
+    text-align: center;
+}
+
+.food-relief-top-section h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.food-relief-top-section p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 1091px;
+    margin: 20px auto 50px auto;
+}
+
+
+#food-relief-main {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.food-relief-contact {
+    width: 40%;
+    padding-right: 50px;
+}
+
+.food-relief-contact p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.food-relief-contact .contact .phone {
+    display: flex;
+    margin: 30px 0;
+}
+
+.food-relief-contact .contact .phone span {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    color: #707070;
+}
+
+.food-relief-contact .contact .email {
+    display: flex;
+}
+
+.food-relief-contact .contact .email span {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    color: #707070;
+}
+
+.food-relief-contact .contact img {
+    width: 24px;
+}
+
+.food-relief-image {
+    width: 60%;
+    padding-left: 50px;
+}
+
+.food-relief-image img {
+    width: 100%;
+}
 
 
 
 
 
-/* ========= Donate Plan Card ======== */
+
+/* ========= Get update Section ======== */
 
 #get-update-section {
     margin-top: 130px;
